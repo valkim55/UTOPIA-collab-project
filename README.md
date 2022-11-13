@@ -65,6 +65,7 @@ lalala ........
 <br></br>
 
 > ### ___Screenshots and Link___
+This is the [LINK](https://boiling-brushlands-32049.herokuapp.com/) to deployed application<br>
 <p>Here you can see a few screenshots from our web application, such as: </p>
 <strong> HOMEPAGE: </strong></br>
 <img src='./public/images/scr1.png' width="900"><br>
@@ -74,7 +75,8 @@ lalala ........
 <strong> LOGIN/SIGNUP PAGE: </strong></br>
 <img src='./public/images/scr4.png' width="900"><br>
 
-<strong> UTOPIA app is deployed through Heroku and can be found <em>[right here](heroku link) </em> </strong>
+<strong> UTOPIA app is deployed through Heroku and can be found <em>[right here](https://boiling-brushlands-32049.herokuapp.com/) </em> </strong> <br>
+<strong> to install the seeds run this command "heroku run node ./seeds/index.js" </strong>
 <br></br>
 > ### ___Contacts___
 <p> This is the first official release of Utopia web application. Please stay tuned for Utopia 2.0 and if you have any suggestions in regards to improving app performance or if you would like to collaborate, feel free to find us on GitHub or LinkedIn:</p>
