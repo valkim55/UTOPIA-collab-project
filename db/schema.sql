@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS utopia_db;
+CREATE DATABASE utopia_db;

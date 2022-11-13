@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    padding: 40px;
+    text-align: center;
+    background: rgba(1,53,93,255);
+    color: #fff;
+    position: sticky;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 100px;
+    width:150px;
+    margin-left: 0px;
+}
+
+a {
+    color: white;
+    text-decoration:solid;
+}
+
+/*Navigation*/
+
+nav{
+    display: flex;
+    background-color: rgba(1,53,93,255);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+  }
+
+  .nav__links {
+    list-style: none;
+  }
+
+
+/*Body*/
+
+body{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(249, 249, 250);
+    color:rgb(6, 76, 122)
+}
+
+/*Event Card*/
+
+section{
+    display:flex;
+    border: 10px solid rgb(6, 76, 122);
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: row;
+    background-color: rgb(119, 192, 252);
+}
+
+.event-card{
+    flex: content;
+    border: 10px solid rgb(6, 76, 122);
+    height: 410px;
+    width: 350px;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: rgb(253, 241, 175);
+}
+
+.event-body{
+    flex: content;
+    background-color:rgb(6, 76, 122);
+}
+
+.homepage-image {
+    height: 250px;
+    padding-bottom: 10px;
+}
+
+.events {
+    flex: content;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.event-body a{
+    color:rgb(94, 169, 240);
+    font-size: 14pt;
+}
+
+.event-body h5, .event-details p{
+    color:#fff;
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    background: rgba(1,53,93,255);
+    color:rgb(72, 134, 192);
+}
+
+/*Login*/
+
+.login-page{
+    display: flex;
+    background-color: rgb(253, 241, 175);
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login, .signup{
+    background-color:rgb(94, 169, 240);
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(241, 224, 66);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+/*Single Event*/
+
+.event-card2{
+    color:rgb(6, 76, 122)
+}
+
+.menu-card{
+    border: 10px solid rgb(6, 76, 122);
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    background-color: rgb(253, 241, 175);
+    color:rgb(6, 76, 122)
+}
+
+.menu-card h1{
+    border-bottom: 10px solid rgb(6, 76, 122);
+}
+
+.appetizer,.mainCourse,.drink,.dessert{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 10px solid rgb(6, 76, 122);
+}
+
+.appetizer img{
+    height: 250px;
+}

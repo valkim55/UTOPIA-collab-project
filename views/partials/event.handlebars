@@ -1,0 +1,15 @@
+<section class="container">
+  
+  <!--Event Title-->
+
+  <h3 class="event_title">{{event_title}}</h3>
+  
+  <section class= "event-details">
+
+    {{#each event.detail as|event|}}
+    {{> event-details}}
+    {{/each}}
+ 
+  </section>
+  
+</section>
