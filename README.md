@@ -1,4 +1,4 @@
-<p style="text-align: center"><img src="./public/images/logo.JPG" width="400"></p>
+<p style="text-align: center"><img src="./public/images/logo.jpg" width="400"></p>
 <div style="text-align: center"> 
 
 ### Welcome to Utopia - where all your gastronomical dreams come true! 
