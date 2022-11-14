@@ -33,11 +33,10 @@ Please refer to the following resources in this repository<br>
 - <strong> to sign up </strong>, you will need to fill out the form with the following information: first name, last name, username, email, password. <br>
 After that, front end Javascript will capture this data and perform a fetch() request with a POST method to /api/users endpoint. Once the information about a new user is added to the database - a new session will be saved with user id and username to let the user freely navigate on a website.<br>
 
-- <strong> to login </strong>, you will need to fill out the login form with your: username, email and password. <br>
-lalala.....
+- <strong> to login </strong>, you will need to fill out the login form with your: username, email and password. Login functionality is limited for the time being but we're bringing more definition to it in the future development.<br>
 
-- <strong> to RSVP for an event </strong>, the following steps are taken: <br>
-lalala ........
+
+- <strong> to RSVP for an event </strong>, in the future, the user will be able to click RSVP button on the individual event page and the event will be added to users list on their profile page.<br>
 
 
 <br></br>
@@ -50,7 +49,7 @@ lalala ........
 
 <dl>
     <dt><strong>💻 Valeriya Kim </strong></dt>
-    <dd>Valeriya is a back-end developer behind the <em>Model & Controller</em> part of the application.....</dd>
+    <dd>Valeriya is a back-end developer behind the <em>Model & Controller</em> part of the application and your go-to for troubleshooting.</dd>
 </dl>
 
 <dl>
